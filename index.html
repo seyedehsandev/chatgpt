@@ -14,7 +14,9 @@
         <nav class="w-full h-full relative">
           <!-- nav header  -->
           <div class="h-14 w-[236px] flex justify-between items-center">
-            <span class="px-2">
+            <span
+              class="px-2 rounded-lg hover:bg-navitemshoverbg cursor-pointer"
+            >
               <svg
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 width="24"
@@ -33,7 +35,9 @@
                 ></path>
               </svg>
             </span>
-            <span class="px-2">
+            <span
+              class="px-2 rounded-lg hover:bg-navitemshoverbg cursor-pointer"
+            >
               <svg
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 width="24"
@@ -196,13 +200,43 @@
         </nav>
       </div>
       <!-- chat seiction -->
-      <div class="h-full bg-red-400">
+      <div class="h-full w-full bg-chatsectionbg flex flex-col justify-between">
         <!-- chat header  -->
-        <div></div>
+        <div class="w-full h-14 p-3 flex flex-col justify-between items-center">
+          <div
+            class="flex items-center rounded-lg px-3 py-1.5 hover:bg-chatheaderbg cursor-pointer"
+          >
+            <span class="text-lg">ChatGPT</span>
+            <svg
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-md text-token-text-tertiary"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.29289 9.29289C5.68342 8.90237 6.31658 8.90237 6.70711 9.29289L12 14.5858L17.2929 9.29289C17.6834 8.90237 18.3166 8.90237 18.7071 9.29289C19.0976 9.68342 19.0976 10.3166 18.7071 10.7071L12.7071 16.7071C12.5196 16.8946 12.2652 17 12 17C11.7348 17 11.4804 16.8946 11.2929 16.7071L5.29289 10.7071C4.90237 10.3166 4.90237 9.68342 5.29289 9.29289Z"
+                fill="#9B9B9B"
+                stroke-width="1.5px"
+              ></path>
+            </svg>
+          </div>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </div>
         <!-- chat main  -->
         <div></div>
         <!-- chat footer  -->
-        <div></div>
+        <div class="text-center w-full py-2 px-[60px]">
+          <p class="text-footertext text-xs">
+            ChatGPT can make mistakes. Check important info.
+          </p>
+        </div>
       </div>
     </div>
   </body>
