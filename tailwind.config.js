@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         navbg: "#171717",
+        navitemshoverbg: "#212121",
+        plantext: "#9b9b9b",
       },
     },
   },
