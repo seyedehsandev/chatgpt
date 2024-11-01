@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChatGPT</title>
     <link rel="stylesheet" href="output.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.oaistatic.com/assets/favicon-dark-32x32-gt5kfzyp.webp"
+      type="image/x-icon"
+    />
   </head>
   <body class="h-screen">
     <!-- main container  -->
     <div class="h-full flex">
       <!-- nav  -->
-      <div class="w-[260px] h-full left-0 top-0 bg-navbg px-3">
-        <nav class="w-full h-full relative">
+      <div class="hidden md:block w-[260px] h-full bg-navbg px-3">
+        <nav class="hidden md:block w-full h-full relative">
           <!-- nav header  -->
           <div class="h-14 w-[236px] flex justify-between items-center">
             <span
@@ -199,6 +204,7 @@
           <!-- nav finished  -->
         </nav>
       </div>
+
       <!-- chat seiction -->
       <div class="h-full w-full bg-chatsectionbg flex flex-col justify-between">
         <!-- chat header  -->
