@@ -6,7 +6,7 @@
     <title>ChatGPT</title>
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body>
+  <body class="h-screen">
     <!-- main container  -->
     <div class="h-full flex">
       <!-- nav  -->
@@ -56,7 +56,7 @@
           <div class="text-white">
             <!-- static items  -->
             <div
-              class="w-[219px] h-10 px-2 gapx2.5 flex flex-row items-center rounded-lg hover:bg-navitemshoverbg cursor-pointer"
+              class="w-[219px] h-10 px-2 gapx2.5 flex flex-row items-center rounded-lg hover:bg-navitemshoverbg cursor-pointer text-sm"
             >
               <span class="h-6 w-6 flex items-center text-sm">
                 <svg
@@ -79,7 +79,7 @@
               <span class="text-white">ChatGPT</span>
             </div>
             <div
-              class="w-[219px] h-10 px-2 gap-x-2.5 flex flex-row items-center rounded-lg hover:bg-navitemshoverbg cursor-pointer"
+              class="w-[219px] h-10 px-2 gap-x-2.5 flex flex-row items-center rounded-lg hover:bg-navitemshoverbg cursor-pointer text-sm"
             >
               <span class="h-[18px] w-[18px] flex items-center text-sm">
                 <svg
@@ -126,19 +126,35 @@
             <!-- dynamic items  -->
             <div class="mt-5 pb-2">
               <div>
-                <span>Today</span>
+                <span class="text-xs px-2 py-3">Today</span>
               </div>
-              <ol>
-                <li>بهترین سریال ها برای زبان</li>
-                <li>حق الوکاله پرونده مالی</li>
-                <li>لاغری موضعی</li>
-                <li>میکسر سیاره ای چیست</li>
+              <ol class="text-sm">
+                <li
+                  class="p-2 rounded-lg hover:bg-navitemshoverbg cursor-pointer"
+                >
+                  بهترین سریال ها برای زبان
+                </li>
+                <li
+                  class="p-2 rounded-lg hover:bg-navitemshoverbg cursor-pointer"
+                >
+                  حق الوکاله پرونده مالی
+                </li>
+                <li
+                  class="p-2 rounded-lg hover:bg-navitemshoverbg cursor-pointer"
+                >
+                  لاغری موضعی
+                </li>
+                <li
+                  class="p-2 rounded-lg hover:bg-navitemshoverbg cursor-pointer"
+                >
+                  میکسر سیاره ای چیست
+                </li>
               </ol>
             </div>
           </div>
           <!-- plan div  -->
           <div
-            class="w-[236px] h-[72px] px-2 py-2.5 flex flex-row justify-between items-center fixed bottom-0 left-3 gap-2.5"
+            class="w-[236px] h-14 px-2 py-2.5 flex flex-row justify-between items-center fixed bottom-2 left-3 gap-2.5 rounded-lg hover:bg-navitemshoverbg cursor-pointer"
           >
             <span class="w-6 h-6 flex items-center justify-center">
               <svg
@@ -180,7 +196,7 @@
         </nav>
       </div>
       <!-- chat seiction -->
-      <div>
+      <div class="h-full bg-red-400">
         <!-- chat header  -->
         <div></div>
         <!-- chat main  -->
