@@ -10,6 +10,8 @@ module.exports = {
         chatsectionbg: "#212121",
         chatheaderbg: "#2F2F2F",
         footertext: "#B4B4B4",
+        chathtag: "#ECECEC",
+        chatolborder: "hsla(0, 0%, 100%, .1)",
       },
     },
   },
